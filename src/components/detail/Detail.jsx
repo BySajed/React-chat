@@ -17,7 +17,7 @@ const Detail = () => {
                 </div>
                 <div className="options">
                     <div className="title">
-                        <span>Privacy % help</span>
+                        <span>Privacy & help</span>
                         <img src="./arrowUp.png" alt="" />
                     </div>
                 </div>
@@ -32,8 +32,15 @@ const Detail = () => {
                                 <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="" />
                                 <span>photo_2024_2.png</span>
                             </div>
+                            <img src="./download.png" alt="" className="icon"/>
                         </div>
-                        <img src="./download.png" alt="" />
+                        <div className="photoItem">
+                            <div className="photoDetail">
+                                <img src="https://static.vecteezy.com/ti/photos-gratuite/t2/36324708-ai-genere-image-de-une-tigre-en-marchant-dans-le-foret-photo.jpg" alt="" />
+                                <span>photo_2024_2.png</span>
+                            </div>
+                            <img src="./download.png" alt="" className="icon"/>
+                        </div>
                     </div>
                 </div>
                 <div className="options">
@@ -46,6 +53,6 @@ const Detail = () => {
             </div>
         </div>
     );
-    }
+}
 
 export default Detail;
