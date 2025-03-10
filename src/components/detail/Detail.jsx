@@ -6,7 +6,7 @@ const Detail = () => {
             <div className="user">
                 <img src="./avatar.png" alt="avatar" />
                 <h2>Jane Doe</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="info">
                 <div className="options">
@@ -50,6 +50,7 @@ const Detail = () => {
                     </div>
                 </div>
                 <button>Block User</button>
+                <button className="logout">Logout</button>
             </div>
         </div>
     );
